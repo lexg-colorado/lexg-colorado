@@ -14,41 +14,50 @@
 
 ---
 
-## About Me
+## What I Build
 
-I build practical AI solutions for real-world problems. My focus areas include:
-
-- **Agentic Coding & AI Automation** - Building intelligent systems that work autonomously
-- **MCP Server Development** - Creating Model Context Protocol servers for enhanced AI capabilities
-- **Full-Stack Applications** - End-to-end development with modern frameworks
-- **Solutions Architecture** - Designing scalable, production-ready systems
+- **Local LLM Infrastructure** - Self-hosted AI deployments with Ollama and LM Studio, GPU-accelerated inference
+- **MCP Server Development** - Model Context Protocol servers for enhanced AI tool use
+- **AI-Native Applications** - Production Python systems with FastAPI, vector databases, and embedding pipelines
+- **Agentic Coding & Automation** - AI agents for code generation, review, and workflow automation
+- **Code Migration** - RAG-powered legacy code translation with AST analysis
 
 ---
 
-## Featured Project
+## Featured Projects
 
 ### SImSS - Semantic Image Search System
 
-A semantic image search system that uses AI embeddings to find visually and conceptually similar images.
+A local-first semantic image search system that uses vision-language models to automatically describe, tag, and index images for natural language querying. Available in two editions:
 
-[![SImSS](https://img.shields.io/badge/View_Repository-SImSS-6366f1?style=for-the-badge&logo=github)](https://github.com/lexg-colorado/SImSS)
+[![SImSS Ollama](https://img.shields.io/badge/SImSS-Ollama_Edition-6366f1?style=for-the-badge&logo=github)](https://github.com/lexg-colorado/SImSS)
+[![SImSS LM Studio](https://img.shields.io/badge/SImSS-LM_Studio_Edition-6366f1?style=for-the-badge&logo=github)](https://github.com/lexg-colorado/SImSS-LMSTUDIO)
 
-**Key Features:**
-- Vector embeddings for semantic image understanding
-- Fast similarity search across large image collections
-- Modern Python implementation
+- 5-stage ingestion pipeline: discovery, thumbnailing, metadata extraction, vision description, vector embedding
+- Semantic search via ChromaDB with 768-dimensional embeddings
+- Supports JPEG, PNG, HEIC/HEIF, and RAW formats
+
+### ccpPy - C/C++ to Python Translator
+
+RAG-based code translation using dependency-aware analysis, AST parsing with tree-sitter, and local LLMs via Ollama.
+
+[![ccpPy](https://img.shields.io/badge/View_Repository-ccpPy-6366f1?style=for-the-badge&logo=github)](https://github.com/lexg-colorado/ccpPy)
 
 ---
 
 ## Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+![LM Studio](https://img.shields.io/badge/LM_Studio-4B0082?style=flat-square)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F61?style=flat-square)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
